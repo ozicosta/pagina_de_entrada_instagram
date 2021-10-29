@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /*não calcula a dimensão dos elementos somando bordas e margens*/
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(212, 224, 218);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-wrapper{
+  display: flex; /*transforma o conteúdo em linha*/
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.instagram-iphone{
+  display: flex; /*transforma o conteúdo em linha*/
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.instagram-iphone img{
+  height: 600px;
+}
